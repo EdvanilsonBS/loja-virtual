@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background: #f4f6f5;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  color: #1f2d2a;
+}
+.product-card .p-card-title {
+  font-size: 1rem;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 2.7em;
+}
+.product-image {
+  height: 200px;
+  object-fit: contain;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 6px 6px 0 0;
+}
+.app-header {
+  background: var(--primary-color);
+  color: #fff;
+}
+.product-price {
+  color: var(--primary-color);
+}
+.error-box {
+  background: #fde8e8;
+  color: #9b1c1c;
+}
