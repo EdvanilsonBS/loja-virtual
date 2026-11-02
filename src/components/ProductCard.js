@@ -14,12 +14,7 @@ export default function ProductCard({ product }) {
       src={image || "https://placehold.co/300x200?text=Sem+imagem"}
     />
   );
-const CATEGORIAS = {
-  "men's clothing": "Roupas masculinas",
-  "women's clothing": "Roupas femininas",
-  jewelery: "Joias",
-  electronics: "Eletrônicos",
-};
+  
   const footer = (
     <div className="flex align-items-center justify-content-between">
       <span className="product-price text-xl font-bold">
